@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(fonts/BebasNeue-Regular.ttf) format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +13,7 @@
     display: flex;
     height: 100vh;
 }
+
 .image-container {
     background-image: url('images/gym.jpg');
     height: 100vh;
@@ -40,7 +46,8 @@
 }
 
 .logo-text {
-    font-size: 28px;
+    font-size: 50px;
+    font-family: 'Bebas Neue';
 }
 
 .photo-credit {
